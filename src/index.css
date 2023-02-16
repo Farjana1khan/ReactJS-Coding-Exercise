@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  width: 400px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0px 0px 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.fieled {
+  width: 200px;
+  height: 20px;
+  /* border-radius: 50px; */
+  margin-top: 20px;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: aqua !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+.fruits {
+  color: rgb(218, 8, 8);
+  font-size: medium;
+  font-family: sans-serif;
+  line-height: 2px;
+}
+
+.fruitss {
+  border: solid 1px black;
+}
+
+.counter {
+  text-align: center;
+background-color: bisque;
+  width: 400px;
+
+
+  margin: 20px 430px;
+}
+
+.btn {
+  background-color: rgb(208, 222, 222);
+  font-size: 40px;
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  height: 50px;
+  margin-top: 70px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.cnt {
+  width: 50px;
+  margin-left: 175px;
+  height: 50px;
+  margin-top: 70px;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: green;
+}
