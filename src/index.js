@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import FilterList from './FilterList/FilterList';
-import Counterapp from './CounterApp/Counterapp';
+
+import Example from  './FetchUsersData/Users'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <FilterList /> */}
-    <Counterapp />
+   
+    <Example />
   </React.StrictMode>
 );
 
