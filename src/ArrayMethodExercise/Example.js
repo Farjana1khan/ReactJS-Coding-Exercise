@@ -8,7 +8,7 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 
 // console.log("DuplicateValues", DuplicateValues)
 
-/******************************************************************* */
+/********************************************************************/
 
 //Find Unique Values
 // const UniqueValues = Array.filter((ele, index, arr) =>{
@@ -90,7 +90,7 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 
 
 /********************************************************************/
-//FInd Average of Numbers in Array
+//Find Average of Numbers in Array
 
 // const AverageTotal = Array.reduce((a, b)=>a+b, 0)
 
@@ -105,7 +105,7 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 
 /********************************************************************/
 
-const Days = ["mon", "Tue", "Wed" ,"Thur", "Fri", "Sat", "Sun"]
+const Days = ["mon", "tue", "wed" ,"thur", "fri", "sat", "sun"]
 
 //Uppercase First Letter of String Using For Of Loop
 
@@ -126,7 +126,7 @@ const Days = ["mon", "Tue", "Wed" ,"Thur", "Fri", "Sat", "Sun"]
 
 /********************************************************************/
 
-//How to check if an Array contaies any element of another Array
+//How to check if an Array containes any element of another Array
 
 // const SecArray = [2, 34, 56, 3, 4, 6]
 // const Res = Array.some((ele)=>{
@@ -311,12 +311,12 @@ let a = [2, 3, 5, 7, 8,9, 34, 22, 54]
 // const replaceIndex = 2;
 // const element = 200
 
-// const Result = [...student.slice(0, replaceIndex), element, ...student.slice(replaceIndex+1)]
+// const Result = [...student.slice(0, replaceIndex), element, ...student.slice(replaceIndex + 1)]
 // console.log("Result", Result)
 
 
 /********************************************************************/
-//How can we insert  element at a specific index in an Array
+//How can we insert  element at a specific index in an Array.
 
 //  const Arr = [23,45,11,23,6,87,33]
 // const element = 250
@@ -326,7 +326,7 @@ let a = [2, 3, 5, 7, 8,9, 34, 22, 54]
 
 
 /********************************************************************/
-//How can we delete  element at a specific Element (means Exact Element) in an Array
+//How can we delete  element at a specific Element (means Exact Element) in an Array.
 
 //  const Arr = [23,45,11,23,6,87,33]
 // const DeleteElement = 23
@@ -372,7 +372,7 @@ let a = [2, 3, 5, 7, 8,9, 34, 22, 54]
 /********************************************************************/
 
 //How can you add an element to the object 
-//to add an element to an existing object, wewill use the spread operator
+//to add an element to an existing object, we will use the spread operator
 
 // const originObj = {
 
