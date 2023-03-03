@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import Example from  './ArrayMethodExercise/Example'
+import Example from  './ReactLifeCycleMethod/Lifecycle'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
