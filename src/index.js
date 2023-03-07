@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import Example from  './ReactLifeCycleMethod/Lifecycle'
+import Example from  './Convert _Functional_To_Class_Comp/MultipleStateProperties'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
