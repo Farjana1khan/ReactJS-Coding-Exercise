@@ -1,4 +1,4 @@
-const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22, 90]
+// const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22, 90]
 
     //Find Duplicate Values 
 
@@ -151,6 +151,7 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 // console.log(FindMissingValue(ArrayNumber))
 
 /********************************************************************/
+
 
 //how to find even or odd numbers in array in javascript
 
