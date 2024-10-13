@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 export default function Users() {
-   // const url = "https://jsonplaceholder.typicode.com/users";
+    
    const [user, setUsers] = useState([])
 
     useEffect(()=>{
@@ -20,9 +20,8 @@ export default function Users() {
             setUsers(user)
             return
         } 
-        
-  const FilterUSers = user.filter((user)=>user.indexOf(e.target.value.toLowerCase()) !== -1)
-  setUsers(FilterUSers)
+          const FilterUSers = user.filter((user)=>user.indexOf(e.target.value.toLowerCase()) !== -1)
+           setUsers(FilterUSers)
     }
 
 
@@ -32,7 +31,7 @@ export default function Users() {
             <div>
                 <input  type="text" onClick={handleSearch}  />
             </div>
-{user&&user.map((users, index)=>(
+{user && user.map((users, index)=>(
     <div>
         <h1>Name:={users.name}</h1>
     </div>

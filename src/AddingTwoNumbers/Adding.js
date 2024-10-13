@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 export default function Adding() {
@@ -22,7 +23,7 @@ export default function Adding() {
     setTotal(per) 
   }
   return (
-    <div>
+    <div className="container-xxl mt-5">
       <h3>Adding Two numbers</h3>
       <div>
         <input
@@ -33,15 +34,19 @@ export default function Adding() {
         />
 
         <input
-          placeholder="First Number"
+          placeholder="Enter Second Number"
           type="number"
           value={number2}
           onChange={(e) => setNumber2(+e.target.value)}
-        />
+        /> 
+        
+        <br></br>
+        <div className="mt-5">
         <button onClick={getAdd}>Add</button>
         <button onClick={Mult}>Multiplication</button>
         <button onClick={Devide}>Devide</button>
         <button onClick={Per}>Percentage</button>
+        </div>
       
           <h1>
             {total}

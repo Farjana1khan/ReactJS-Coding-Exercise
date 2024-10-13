@@ -1,6 +1,6 @@
 const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22, 90]
 
-//Find Duplicate Values 
+    //Find Duplicate Values 
 
 // const DuplicateValues = Array.filter((ele, index, arr) =>{
 //     return arr.indexOf(ele)!== index
@@ -69,7 +69,7 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 // })
 // }
 
-// const MaxValueRes = MaxValue(Array)
+// const MaxValueRes = MaxValue(Array)  
 
 // console.log(MaxValueRes)
 
@@ -88,8 +88,83 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 // console.log(MinValueRes)
 
 
+//Find Max Value Or Greater  Value without using any built In function
+// const ArrayNymber = [1, 2, 8, 2, 8, 40, 9];
+
+// function findMaxValue(arr) {
+//   let max = arr[0]; // Assume the first element is the max
+//   for (let i = 1; i < arr.length; i++) { // Start from the second element
+//     if (arr[i] > max) { // Compare each element with the current max
+//       max = arr[i]; // Update the max if current element is greater
+//     }
+//   }
+//   return max; // Return the max value
+// }
+
+// const maxValue = findMaxValue(ArrayNymber);
+// console.log(maxValue); // Outputs: 40
+
+
+
+// How To find second Largest value in array
+// const ArrayNumber = [1, 2, 8, 2, 8, 40, 50, 20, 70, 9];
+
+// function LargstValue (arr){
+//     FirstLargetsValue =  Math.max(...arr)
+// //   return (FirstLargetsValue) //first find FirstLargetsValue 70
+  
+//   index = arr.indexOf(FirstLargetsValue)
+//   arr.splice(index, 1)
+  
+//   SecondLargestValue =  Math.max(...arr)
+//   return(SecondLargestValue)  //first find SecondLargestValue 50
+  
+// }
+// console.log(LargstValue(ArrayNumber))
+
+
+
 
 /********************************************************************/
+
+
+// How to Find missing elements in a given Array 1 to 10
+
+// const ArrayNumber = [1, 2, 3, 4,5,6, 9];
+
+// const MissingValue = []
+// function FindMissingValue(arr){
+    
+//     const MinValue = Math.min(...arr)
+//      const MaxValue = Math.max(...arr)
+     
+//      for(let i = MinValue; i< MaxValue; i++){
+//          if(arr.indexOf(i)< 0){
+//              MissingValue.push(i)
+//          }
+//      }
+//      return MissingValue
+// }
+
+
+
+// console.log(FindMissingValue(ArrayNumber))
+
+/********************************************************************/
+
+//how to find even or odd numbers in array in javascript
+
+// const ArrayNumber = [1, 2, 3, 4,5,6, 9];
+// const  OddEvenFind = ArrayNumber.filter((arr)=>{
+//       return arr % 2==0
+// })
+
+// console.log(OddEvenFind)
+
+/********************************************************************/
+
+
+
 //Find Average of Numbers in Array
 
 // const AverageTotal = Array.reduce((a, b)=>a+b, 0)
@@ -103,6 +178,94 @@ const Array = [3, 4, 5, 2,6, 34, 45,23, 67,453,66,576,88,6, 5, 7, 6,9, 8,20, 22,
 // console.log("FinalAverageTotal", FinalAverageTotal)
 
 
+
+
+
+/********************************************************************/
+
+//how to find fictorial of a given number in Javascript
+
+// const input = prompt(" Enter a Number")
+
+//     var fact =1;
+    
+//    if(input < 0){
+//       console.log("not a possible for factorial")
+//    }else{
+//          for(let i = 1; i<=input; i++){
+//              fact = fact*i
+        
+//     }
+//     console.log(`factorial=>, ${input} is ${fact}`)
+//    }
+
+
+/********************************************************************/
+
+//First letter uppercase
+// const FistCapital = (str)=>{
+//     var StrArray = str.split(" ")
+//  var NewStr = StrArray.map((newstr)=>{
+   
+//      return newstr.charAt(0).toUpperCase() + newstr.slice(1)
+//  })
+//  return NewStr.join(" ")
+// }
+
+// console.log(FistCapital("farjana"))
+
+/********************************************************************/
+
+// PrintStart
+// for(let i = 1; i<=6; i++){
+  
+//     for(let k=1; k<=6-i; k++){
+//        for(let j=1; j<=i; j++){
+//      console.log("*")
+//  }
+//  console.log("<br/>")
+//  }
+
+
+
+// }
+
+// // PrintStart top to bottom 
+// for(let i = 1; i<=6; i++){
+  
+//     for(let k=1; k<=6-i; k++){
+     
+//      console.log("*")
+//  }
+//  console.log("<br/>")
+// }
+
+
+
+//Diamond Start
+
+// for(let i = 1; i<=6; i++){
+  
+//         for(let k=1; k<=6-i; k++){
+          
+//      console.log("&nbsp;")
+//      }
+//      for(let j=1; j<=i; j++){
+//         console.log("*")
+//     }
+//     console.log("<br/>")
+// }
+//      for(let i = 1; i<=6; i++){
+  
+//         for(let k=1; k<=i; k++){
+          
+//             console.log("&nbsp;")
+//      }
+//      for(let j=1; j<=6-i; j++){
+//         console.log("*")
+//     }
+//     console.log("<br/>")
+// }
 /********************************************************************/
 
 const Days = ["mon", "tue", "wed" ,"thur", "fri", "sat", "sun"]
@@ -537,7 +700,7 @@ let a = [2, 3, 5, 7, 8,9, 34, 22, 54]
 
 /********************************************************************/
 
-//Object convert object to string and string to object
+//Object convert-> object to string and string to object
 
 // const user = {
 //     name: "Farjana",
@@ -567,3 +730,4 @@ const user = {
 
 const {fulname} = user
 console.log(fulname)
+
